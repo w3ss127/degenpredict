@@ -40,12 +40,12 @@ const baseEnv = {
   LOG_DIR: "./logs",
   MAX_WORKERS: process.env.MAX_WORKERS || "4",
   REQUEST_TIMEOUT: process.env.REQUEST_TIMEOUT || "30",
-  WALLET_NAME: process.env.WALLET_NAME || "sn90-4"
+  WALLET_NAME: process.env.WALLET_NAME || "sn44_mine"
 };
 
 // Configuration for miners
 const minerConfigs = [
-  { name: "sn90-145", port: "8091", hotkey: "default" }
+  { name: "sn90-1", port: "12701", hotkey: "htk_mine" }
 ];
 
 // Configuration for validators
